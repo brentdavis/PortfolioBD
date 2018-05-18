@@ -368,8 +368,9 @@ a:hover, a:focus, a:active {
 
 .scrollBox {
     /*css to make the fizz buzz results scrollable*/
-    height: 100px;
-    overflow-y: scroll;
+    height: 150px;
+    width: 225px;
+    overflow-y: auto;
     display: none;
 }
 
@@ -392,7 +393,8 @@ a:hover, a:focus, a:active {
     color: blue;
 }
 
-.inputSpacer {
-    margin-right: 40px;
+.outScroller {
+    height: 100px;
+    overflow-y: auto;
 }
 
