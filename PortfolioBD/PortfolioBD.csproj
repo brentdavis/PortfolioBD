@@ -164,6 +164,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\portfolio.css" />
     <Content Include="css\stylish-portfolio.css" />
     <Content Include="css\stylish-portfolio.min.css" />
     <Content Include="favicon.ico" />
@@ -172,6 +173,8 @@
     <Content Include="img\bg-callout.jpg" />
     <Content Include="img\bg-masthead.jpg" />
     <Content Include="img\bug.jpg" />
+    <Content Include="img\csharp.png" />
+    <Content Include="img\js.png" />
     <Content Include="img\portfolio-1.jpg" />
     <Content Include="img\portfolio-2.jpg" />
     <Content Include="img\portfolio-3.jpg" />
@@ -184,6 +187,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\bdportfolio - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

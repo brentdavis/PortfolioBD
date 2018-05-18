@@ -16,8 +16,10 @@
     <link href="~/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="~/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="~/css/stylish-portfolio.css" rel="stylesheet">
+    <link href="~/css/portfolio.css" rel="stylesheet">
     <!--Syntax Highlighter-->
     <script type="text/javascript" src="~/Scripts/SyntaxHighlighter/scripts/shCore.js"></script>
     <script type="text/javascript" src="~/Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
@@ -67,12 +69,11 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                    <h2>About Me</h2>
                     <p class="lead mb-5">
-                        This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-                        <a href="https://unsplash.com/">Unsplash</a>!
+                        I am an aspiring software developer. I graduated from Forsyth Technical Community College with an Associate's in Applied Science for computer programming, and I am currently enrolled in Coder Foundry. I have a wide range of skills that will make me an excellent addition to any software devleopment company.
                     </p>
-                    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+                    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What I'm Good At</a>
                 </div>
             </div>
         </div>
@@ -81,27 +82,69 @@
     <section class="content-section bg-primary text-white text-center" id="services">
         <div class="container">
             <div class="content-section-heading">
-                <h3 class="text-secondary mb-0">Services</h3>
-                <h2 class="mb-5">What We Offer</h2>
+                <h3 class="text-secondary mb-0">Skills</h3>
+                <h2 class="mb-5">What I'm Good At</h2>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                     <span class="service-icon rounded-circle mx-auto mb-3">
-                        <i class="icon-screen-smartphone"></i>
+                        @*<i class="icon-screen-smartphone"></i>*@
+                        <img src="~/img/csharp.png" class="pictureSpacer">
                     </span>
                     <h4>
-                        <strong>Responsive</strong>
+                        <strong>C#</strong>
                     </h4>
-                    <p class="text-faded mb-0">Looks great on any screen size!</p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                     <span class="service-icon rounded-circle mx-auto mb-3">
-                        <i class="icon-pencil"></i>
+                        <img src="~/img/java.png" class="pictureSpacer">
                     </span>
                     <h4>
                         <strong>Redesigned</strong>
                     </h4>
                     <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3">
+                        <i class="icon-like"></i>
+                    </span>
+                    <h4>
+                        <strong>Favorited</strong>
+                    </h4>
+                    <p class="text-faded mb-0">
+                        Millions of users
+                        <i class="fa fa-heart"></i>
+                        Start Bootstrap!
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <span class="service-icon rounded-circle mx-auto mb-3">
+                        <i class="icon-mustache"></i>
+                    </span>
+                    <h4>
+                        <strong>Question</strong>
+                    </h4>
+                    <p class="text-faded mb-0">I mustache you a question...</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3">
+                        @*<i class="icon-screen-smartphone"></i>*@
+                        <img src="~/img/csharp.png" class="pictureSpacer">
+                    </span>
+                    <h4>
+                        <strong>C#</strong>
+                    </h4>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3">
+                        @*<i class="icon-pencil"></i>*@
+                        <img src="~/img/js.png" class="pictureSpacer">
+                    </span>
+                    <h4>
+                        <strong>JavaScript</strong>
+                    </h4>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                     <span class="service-icon rounded-circle mx-auto mb-3">
@@ -191,6 +234,28 @@
                         <img class="img-fluid" src="~/img/portfolio-4.jpg" alt="">
                     </a>
                 </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2>Slot Machine</h2>
+                                <p class="mb-0">You feeling lucky?</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="~/img/portfolio-4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2>Financial Planner</h2>
+                                <p class="mb-0">Coming Soon!</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="~/img/portfolio-4.jpg" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -259,6 +324,7 @@
                     </ul>
 
                     <div class="tab-content">
+                        <!--The first tabbed item-->
                         <div class="tab-pane container active" id="ex1">
                             <div class="container">
                                 <div id="accordion1">
@@ -278,7 +344,7 @@
                                                         <div class="row">
                                                             <div class="col-md-3">Enter number 1: </div>
                                                             <div class="col-md-2">
-                                                                <input id="ex1num1"  type="number"/>
+                                                                <input id="ex1num1" type="number" />
                                                             </div>
                                                         </div>
                                                         <div class="row">
@@ -307,7 +373,7 @@
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-md-3">
-                                                                <button id="ex1btn" class="btn btn-info btn-lg">Calculate!</button>
+                                                                <button id="ex1btn" class="btn btn-modal">Calculate!</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -340,6 +406,52 @@
                                         </div>
                                         <div id="collapseTwo" class="collapse" data-parent="#accordion1">
                                             <div class="card-body">
+                                                <pre class="brush: js">
+                                                        //basic calculations funciton
+                                                        $("#ex1btn").click(function () {
+
+                                                            //taking input.
+                                                            var num1 = Number($("#ex1num1").val());
+                                                            var num2 = +($("#ex1num2").val());
+                                                            var num3 = +($("#ex1num3").val());
+                                                            var num4 = +($("#ex1num4").val());
+                                                            var num5 = +($("#ex1num5").val());
+
+                                                            //Validation to check if text boxes are empty
+                                                            if (num1 == "" || num2 == "" || num3 == "" || num4 == "" || num5 == "") {
+                                                                $("#ex1out1").text("Please enter a number value into every text box.");
+                                                                $("#ex1out2").text("");
+                                                                $("#ex1out3").text("");
+                                                                $("#ex1out4").text("");
+                                                                $("#ex1out5").text("");
+                                                            }
+                                                            //Validation to only allow the user to enter numbers
+                                                            else if (isNaN(num1) || isNaN(num2) || isNaN(num3) || isNaN(num4) || isNaN(num5)) {
+                                                                $("#ex1out1").text("Please enter a number into every text box.");
+                                                                $("#ex1out2").text("");
+                                                                $("#ex1out3").text("");
+                                                                $("#ex1out4").text("");
+                                                                $("#ex1out5").text("");
+                                                            }
+
+                                                            else {
+
+                                                            //do the calculations and output
+                                                            var result = "Sum: " + (num1 + num2 + num3 + num4 + num5);
+                                                            var largest = "Largest: " + Math.max(num1, num2, num3, num4, num5);
+                                                            var smallest = "Smallest: " + Math.min(num1, num2, num3, num4, num5);
+                                                            var mean = "Mean/Average: " + (num1 + num2 + num3 + num4 + num5) / 5;
+                                                            var product = "Product: " + (num1 * num2 * num3 * num4 * num5);
+                                                            $("#ex1out1").text(result);
+                                                            $("#ex1out2").text(largest);
+                                                            $("#ex1out3").text(smallest);
+                                                            $("#ex1out4").text(mean);
+                                                            $("#ex1out5").text(product);
+                                                            }
+
+                                                        })
+
+                                                </pre>
                                             </div>
                                         </div>
                                     </div>
@@ -394,6 +506,30 @@
                                         </div>
                                         <div id="collapseFour" class="collapse" data-parent="#accordion2">
                                             <div class="card-body">
+                                                <pre class="brush: js">
+                                                        //factorial function
+                                                        $("#btnFact").click(function () {
+
+                                                            //take input
+                                                            var num = +($("#ex2in").val());
+
+                                                            //validation to only allow users to enter numeric values between 1 and 200
+                                                            if (isNaN(num) || num < 1 || num > 200 || num == "") {
+                                                                //document.getElementById("ex2out").innerHTML = "Please enter a number between 1 and 200.";
+                                                                $("#ex2out").text("Please enter a number between 1 and 200.");
+                                                            } else {
+                                                                //use the decrementing for loop to find the factorial. 
+                                                                //(for example, if the user enters 5, decreasing loops starts at 5 then goes 4, 3, 2....etc.
+                                                                //Multiplies each decrement by the starting value to find factorial)
+                                                                for (i = num - 1; i > 0; i--) {
+                                                                    num = num * i;
+                                                                }
+
+                                                                $("#ex2out").text("The factorial is " + num + "!");
+
+                                                            }
+                                                        })
+                                                </pre>
                                             </div>
                                         </div>
                                     </div>
@@ -454,6 +590,60 @@
                                             </div>
                                             <div id="collapseSix" class="collapse" data-parent="#accordion3">
                                                 <div class="card-body">
+                                                    <pre class="brush: js">
+                                                        //fizz buzz function
+                                                        $("#btnFizzBuzz").click(function () {
+
+                                                            //Find the numbers for the fizz buzz
+                                                            var num1 = +($("#ex3in1").val());
+                                                            var num2 = +($("#ex3in2").val());
+
+                                                            //validation to only allow users to enter numeric values between 1 and 100, also checks if the user actually enters something
+                                                            if (isNaN(num1) || num1 < 1 || num1 > 100 || num1 == "") {
+                                                                document.getElementById("ex3out").innerHTML = "Please enter a number between 1 and 100.";
+                                                                document.getElementById("ex3out").style.display = "block";
+                                                            }
+                                                            else if (isNaN(num2) || num2 < 1 || num2 > 100 || num2 == "") {
+                                                                document.getElementById("ex3out").innerHTML = "Please enter a number between 1 and 100.";
+                                                                document.getElementById("ex3out").style.display = "block";
+                                                            }
+                                                            else {
+       
+                                                                //create a string 
+                                                                var fizzbuzz = "";
+                                                                for (var i = 1; i <= 100; i++) {
+
+                                                                    var fizz = i % num1;
+                                                                    var buzz = i % num2;
+
+                                                                    if (fizz == 0 && buzz == 0) {
+
+                                                                        fizzbuzz = fizzbuzz + "<span class='fizzbuzz'>FizzBuzz, </span>";
+                                                                    }
+
+                                                                    else if (fizz == 0) {
+                                                                        fizzbuzz = fizzbuzz + "<span class='fizz'>Fizz, </span>";
+                                                                    }
+
+                                                                    else if (buzz == 0) {
+                                                                        fizzbuzz = fizzbuzz + "<span class='buzz'>Buzz, </span>";
+                                                                    }
+
+                                                                    else {
+                                                                        fizzbuzz = fizzbuzz + i + "<span>, </span>";
+                                                                    }
+                                                                }
+
+                                                                //take off ending comma
+                                                                fizzbuzz = fizzbuzz.substring(0, fizzbuzz.length - 9);
+
+                                                                // put result into the p tag, and set the p tag to be visible.
+                                                                $("#ex3out").html(fizzbuzz);
+                                                                document.getElementById("ex3out").style.display = "block";
+                                                                 }
+   
+                                                        })
+                                                </pre>
                                                 </div>
                                             </div>
                                         </div>
@@ -476,25 +666,25 @@
                                             <div class="card-body">
                                                 <p>Enter a word into the box, and press the button to see if it is a palindrome!</p>
                                                 <div class="row">
-
-                                                    <div class="col-md-3">
-                                                        <p>Enter the word: </p>
+                                                    <div class="col-md-8">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <p>Enter the word: </p>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <input id="ex4in" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <button id="btnPalindrome" class="btn btn-modal">Palindrome!</button>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <input id="ex4in" />
-                                                    </div>
-
-                                                    <div class="col-md-5">
                                                         <p class="outScroller" id="ex4out"></p>
                                                     </div>
                                                 </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <button id="btnPalindrome" class="btn btn-modal">Palindrome!</button>
-                                                    </div>
-                                                </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -507,24 +697,31 @@
                                         <div id="collapseEight" class="collapse" data-parent="#accordion4">
                                             <div class="card-body">
                                                 <pre class="brush: js">
+                                                        //palindrome function
                                                         $("#btnPalindrome").click(function () {
                                                             //Find if the word is a palindrome (draw o coward, tacocat, etc.)
+                                                            //get user input
                                                             var word = $("#ex4in").val();
                                                             word = word.replace(/\s/g, '');
                                                             word = word.toLowerCase();
                                                             var palindrome = "";
-
-                                                            //use decrementing for loop to loop through the string backwards.
-                                                            for (var i = word.length - 1; i >= 0; i--) {
-                                                                palindrome += word[i];
-                                                            }
-                                                            // $("#ex4out").text(palindrome);
-                                                            //check if it is a palindrome by comparing strings!
-                                                            if (word == palindrome) {
-                                                                $("#ex4out").text(word + " is a palindrome!");
+                                                            //check if user actually entered anything.
+                                                            if (word == "") {
+                                                                $("#ex4out").text("Please enter a word.");
                                                             } else {
-                                                                $("#ex4out").text(word + " is a not palindrome.");
+                                                                //use decrementing for loop to loop through the string backwards.
+                                                                for (var i = word.length - 1; i >= 0; i--) {
+                                                                    palindrome += word[i];
+                                                                }
+                                                                //check if it is a palindrome by comparing strings!
+                                                                if (word == palindrome) {
+                                                                    $("#ex4out").text(word + " is a palindrome!");
+                                                                } else {
+                                                                    $("#ex4out").text(word + " is a not palindrome.");
+                                                                }
                                                             }
+
+  
                                                         })
                                                 </pre>
                                             </div>
@@ -535,8 +732,8 @@
                         </div>
                     </div>
                     @*<div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>*@
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>*@
                 </div>
             </div>
         </div>

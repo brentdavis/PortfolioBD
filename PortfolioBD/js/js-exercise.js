@@ -141,6 +141,35 @@ $("#btnPalindrome").click(function () {
             $("#ex4out").text(word + " is a not palindrome.");
         }
     }
+})
 
-  
+
+//clearing the modal when it closes
+$("#myModal").on("hidden.bs.modal", function () {
+
+    //Clearing exercise one
+    $("#ex1num1").val("");
+    $("#ex1num2").val("");
+    $("#ex1num3").val("");
+    $("#ex1num4").val("");
+    $("#ex1num5").val("");
+
+    $("#ex1out1").text("");
+    $("#ex1out2").text("");
+    $("#ex1out3").text("");
+    $("#ex1out4").text("");
+    $("#ex1out5").text("");
+
+    //clearing exercise two
+    $("#ex2in").val("");
+    $("#ex2out").text("");
+
+    //clearing exercise three
+    $("#ex3in1").val("");
+    $("#ex3in2").val("");
+    $("ex3out").text("");
+    
+    //clearing exercise four
+    $("#ex4in").val("");
+    $("#ex4out").text("");
 })
