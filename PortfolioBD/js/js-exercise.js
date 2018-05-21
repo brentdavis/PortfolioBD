@@ -143,9 +143,11 @@ $("#btnPalindrome").click(function () {
     }
 })
 
-
 //clearing the modal when it closes
 $("#myModal").on("hidden.bs.modal", function () {
+
+    //Reset accordians
+    //$("#accordion1").collapse.;
 
     //Clearing exercise one
     $("#ex1num1").val("");
