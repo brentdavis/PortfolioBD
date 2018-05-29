@@ -147,8 +147,7 @@ $("#btnPalindrome").click(function () {
 $("#myModal").on("hidden.bs.modal", function () {
 
     //Reset accordians
-    //$("#collapseOne").collapse('show');
-    //$("#collapseTwo").collapse('hide');
+    //$("#accordion1").collapse.;
 
     //Clearing exercise one
     $("#ex1num1").val("");
